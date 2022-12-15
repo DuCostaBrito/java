@@ -24,7 +24,7 @@ public class IngressoVip extends Ingresso {
     }
 
     // Metodos Sobrepostos
-    public int getValor() {
-        return this.valor + this.valorAdicional;
+    public void setValor() {
+        this.valor = this.valor + this.valorAdicional;
     }
 }

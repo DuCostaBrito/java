@@ -25,6 +25,6 @@ public class Ingresso {
 
     // Metodos
     public void imprimir() {
-        System.out.println("Valor do ingresso: " + this.getValor());
+        System.out.println("Valor do ingresso: " + getValor());
     }
 }
