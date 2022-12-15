@@ -6,6 +6,11 @@ public class Ingresso {
 
     // Construtores
     public Ingresso() {
+        this.valor = 10;
+    }
+
+    public Ingresso(int valor) {
+        this.valor = valor;
     }
 
     // Metodos get/set

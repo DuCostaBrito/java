@@ -6,6 +6,11 @@ public class IngressoVip extends Ingresso {
 
     // Construtores
     public IngressoVip() {
+        this.valorAdicional = 8;
+    }
+
+    public IngressoVip(int valorAdicional) {
+        this.valorAdicional = valorAdicional;
     }
 
     // Metodos get/set
