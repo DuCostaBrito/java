@@ -40,4 +40,14 @@ public class Funcionario {
     public void setEstrangeiro(boolean estrangeiro) {
         this.estrangeiro = estrangeiro;
     }
+
+    //Metodos
+    public void imprimir() {
+        System.out.println("Nome do Funcionario: " + this.getNome());
+        System.out.println("Matricula do Funcionario: " + this.getMatricula());
+        if (isEstrangeiro())
+            System.out.println("Funcionario Estrangeiro");
+        else   
+            System.out.println("Funcionario Nativo");
+    }
 }

@@ -30,4 +30,12 @@ public class FuncionarioHorista extends Funcionario{
     public void setNumHoras(int numHoras) {
         this.numHoras = numHoras;
     }
+
+    //Metodos
+    @Override
+    public void imprimir() {
+        super.imprimir();
+        System.out.println("Valor Hora: " + this.getValorHora());
+        System.out.println("Horas Trabalhadas: " + this.getNumHoras());
+    }
 }

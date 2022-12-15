@@ -20,4 +20,11 @@ public class FuncionarioMensalista extends Funcionario{
     public void setSalario(int salario) {
         this.salario = salario;
     }
+
+    //Metodos
+    @Override
+    public void imprimir() {
+        super.imprimir();
+        System.out.println("Salario: " + this.getSalario());
+    }
 }
