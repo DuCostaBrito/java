@@ -23,5 +23,13 @@ public class FolhaDePagamentoUFPR {
             this.salario = salario;
     }
 
-    
+    //Metodos
+    public void exibirDados() {
+        System.out.println("Nome do funcionario: " + this.funcionario.getNome());
+        System.out.println("Cargo: " + this.funcionario.getCargo());
+        System.out.printf("Data de Nascimento: %d/%d/%d \n",this.funcionario.dataNasc.dia, this.funcionario.dataNasc.mes, this.funcionario.dataNasc.ano);
+        System.out.println("Matricula: " + this.funcionario.getMatricula());
+        System.out.printf("Data de pagamento (Mes/Ano): %d %d \n", this.dataPagamento.mes, this.dataPagamento.ano);
+        System.out.println("Salario: " + this.getSalario());
+    }
 }
