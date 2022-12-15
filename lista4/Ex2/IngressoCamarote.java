@@ -7,10 +7,12 @@ public class IngressoCamarote extends IngressoVip{
     //Construtores
     public IngressoCamarote() {
         this.valorCamarote = 10;
+        setValor();
     }
 
     public IngressoCamarote(int valorCamarote) {
         setValorCamarote(valorCamarote);
+        setValor();
     }
 
     //Metodos get/set
@@ -23,7 +25,6 @@ public class IngressoCamarote extends IngressoVip{
     }
 
     public void setValor() {
-        super.setValor();
-        this.valor = this.valor + this.valorCamarote;
+        this.valor = this.valor + this.getValorCamarote() + this.getValorAdicional();
     }
 }

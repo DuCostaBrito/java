@@ -7,10 +7,12 @@ public class IngressoVip extends Ingresso {
     // Construtores
     public IngressoVip() {
         this.valorAdicional = 8;
+        setValor();
     }
 
     public IngressoVip(int valorAdicional) {
         this.valorAdicional = valorAdicional;
+        setValor();
     }
 
     // Metodos get/set
