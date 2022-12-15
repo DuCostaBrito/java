@@ -8,13 +8,13 @@ public class FuncionarioUfpr {
     private String cargo;
 
     //Construtor
-    public FuncionarioUfpr(String nome, int matricula, Data dataNascimento, String cargo) {
+    public FuncionarioUfpr(String nome, int matricula, int dia, int mes, int ano, String cargo) {
         setNome(nome);
         setMatricula(matricula);
-        this.dataNasc = dataNascimento;
+        this.dataNasc = new Data(dia, mes, ano);
         setCargo(cargo);
     }
-    
+
     //Metodos get/set
     public String getNome() {
         return this.nome;
