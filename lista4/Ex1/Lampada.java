@@ -10,10 +10,6 @@ public class Lampada {
     }
 
     public void setLigado() {
-        this.ligado = true;
-    }
-
-    public void setDesligado() {
-        this.ligado = false;
+        this.ligado = !this.ligado;
     }
 }
