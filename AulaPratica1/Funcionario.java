@@ -1,14 +1,22 @@
 package AulaPratica1;
 
 public class Funcionario {
-    //Atributos
+    // Atributos
     protected String nome;
     protected int matricula;
     protected boolean estrangeiro;
 
-    //Construtores
+    // Construtores
+    public Funcionario() {
+    }
 
-    //Metodos get/set
+    public Funcionario(String nome, int matricula, boolean estrangeiro) {
+        setNome(nome);
+        setMatricula(matricula);
+        setEstrangeiro(estrangeiro);
+    }
+
+    // Metodos get/set
     public String getNome() {
         return this.nome;
     }
@@ -29,7 +37,7 @@ public class Funcionario {
         return this.estrangeiro;
     }
 
-    public void setEstrangeiro() {
-        this.estrangeiro = !this.estrangeiro;
+    public void setEstrangeiro(boolean estrangeiro) {
+        this.estrangeiro = estrangeiro;
     }
 }

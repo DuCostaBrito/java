@@ -6,6 +6,13 @@ public class FuncionarioHorista extends Funcionario{
     private int numHoras;
     
     //Construtores
+    public FuncionarioHorista(){}
+
+    public FuncionarioHorista(String nome, int matricula, boolean estrangeiro, int valorHora, int numHoras) {
+        super(nome, matricula, estrangeiro);
+        setValorHora(valorHora);
+        setNumHoras(numHoras);
+    }
 
     //Metodos get/set
     public int getValorHora() {
