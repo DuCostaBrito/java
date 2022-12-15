@@ -1,14 +1,14 @@
 package lista4.Ex2;
 
-public class IngressoVip extends Ingresso{
-    //Atributos
+public class IngressoVip extends Ingresso {
+    // Atributos
     private int valorAdicional;
 
-    //Construtores
-    public IngressoVip(){
+    // Construtores
+    public IngressoVip() {
     }
 
-    //Metodos get/set
+    // Metodos get/set
     public int getValorAdicional() {
         return this.valorAdicional;
     }
@@ -18,7 +18,7 @@ public class IngressoVip extends Ingresso{
             this.valorAdicional = valorAdicional;
     }
 
-    //Metodos Sobrepostos
+    // Metodos Sobrepostos
     public int getValor() {
         return this.valor + this.valorAdicional;
     }
