@@ -12,4 +12,9 @@ public class Data {
         this.mes = mes;
         this.ano = ano;
     }
+
+    public Data(int mes, int ano) {
+        this.mes = mes;
+        this.ano = ano;
+    }
 }
