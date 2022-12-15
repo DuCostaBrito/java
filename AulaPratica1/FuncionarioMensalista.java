@@ -25,7 +25,7 @@ public class FuncionarioMensalista extends Funcionario{
     @Override
     public void imprimir() {
         super.imprimir();
-        System.out.println("Salario: " + this.getSalario());
+        System.out.println("Salario: " + this.calculoSalario());
     }
 
     @Override
