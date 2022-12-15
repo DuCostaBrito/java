@@ -50,4 +50,8 @@ public class Funcionario {
         else   
             System.out.println("Funcionario Nativo");
     }
+
+    public int calculoSalario() {
+        return 0;
+    }
 }

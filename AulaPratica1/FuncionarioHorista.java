@@ -38,4 +38,9 @@ public class FuncionarioHorista extends Funcionario{
         System.out.println("Valor Hora: " + this.getValorHora());
         System.out.println("Horas Trabalhadas: " + this.getNumHoras());
     }
+
+    @Override
+    public int calculoSalario() {
+        return (this.getNumHoras() * this.getNumHoras());
+    }
 }
