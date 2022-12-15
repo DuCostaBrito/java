@@ -1,5 +1,5 @@
 package lista4.Ex1;
 
-public class Led {
+public class Led extends Lampada{
     
 }
