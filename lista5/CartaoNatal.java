@@ -8,6 +8,6 @@ public class CartaoNatal extends CartaoWeb{
     }
 
     public void retornarMensagem(String remetente) {
-        System.out.printf("Querido(a) %s, Feliz Natal HO HO HO, %s", remetente, this.destinatario);
+        System.out.printf("Querido(a) %s, Feliz Natal HO HO HO, %s \n", this.destinatario, remetente);
     }
 }

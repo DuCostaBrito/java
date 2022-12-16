@@ -9,6 +9,6 @@ public class CartaoAniversario extends CartaoWeb{
     }
 
     public void retornarMensagem(String remetente) {
-        System.out.printf("Querido(a) %s, Feliz Aniversario, %s", remetente, this.destinatario);
+        System.out.printf("Querido(a) %s, Feliz Aniversario, %s \n", this.destinatario, remetente);
     }
 }

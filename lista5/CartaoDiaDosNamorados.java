@@ -8,6 +8,6 @@ public class CartaoDiaDosNamorados extends CartaoWeb{
     }
 
     public void retornarMensagem(String remetente) {
-        System.out.printf("Querido(a) %s, Feliz Dia dos Namorados, %s", remetente, this.destinatario);
+        System.out.printf("Querido(a) %s, Feliz Dia dos Namorados, %s \n", this.destinatario, remetente);
     }
 }
